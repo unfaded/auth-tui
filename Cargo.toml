@@ -1,0 +1,12 @@
+[package]
+name = "auth-tui"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+totp-rs = { version = "5.6", features = ["gen_secret", "otpauth"] }
+clap = { version = "4.4", features = ["derive"] }
+url = "2.5"
+data-encoding = "2.5"
+dirs = "5.0"
+urlencoding = "2.1"
